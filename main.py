@@ -66,7 +66,7 @@ if __name__ == '__main__':
           
     if is_valid:
         print('valid')
-        run(source=source,weights='weights-final.pt',conf_thres=conf_thres)
+        run(source=source,weights='Static/weights-final.pt',conf_thres=conf_thres)
 
             
         with st.spinner(text='Preparing Images'):
@@ -78,7 +78,7 @@ if __name__ == '__main__':
       
     st.image(str(Path(f'{"Static/confusion_matrix.png"}')), caption='Confusion matrix', width=None, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
     col1, col2 = st.columns(2)
-    st.line_chart(pd.read_csv ("results.csv",usecols=[1,2,3,4,5,6]))
+    st.line_chart(pd.read_csv ("Static/results.csv",usecols=[1,2,3,4,5,6]))
 with col1:
     
     st.image(str(Path(f'{"Static/F1_curve.png"}')), caption='F1_curve', width=None, clamp=False, channels="RGB", output_format="auto")
