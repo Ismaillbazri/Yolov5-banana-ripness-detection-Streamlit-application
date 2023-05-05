@@ -1,4 +1,7 @@
 <h1>Application Streamlit pour la détection de maturité des bananes à l'aide de YOLOv5</h1>
+
+<h2>Introduction</h2>
+
 Ce projet vise à détecter le degré de maturité des bananes à partir de leurs images en utilisant l'architecture de réseau de neurones YOLOv5 implémentée par PyTorch. Vous pouvez ré-entraîner le modèle YOLOv5 avec un ensemble de données personnalisé pour mettre à jour les poids du réseau de neurones. Le projet utilise également OpenCV pour la détection en temps réel et une application Streamlit est mise en œuvre pour faciliter l'utilisation de l'application. L'application affiche une liste dans laquelle vous pouvez sélectionner une source de détection (image statique ou caméra).
 
 <h2>Installation et utilisation</h2>
