@@ -14,4 +14,5 @@ Pour utiliser l'application, suivez les étapes suivantes :
 <img src="https://github.com/Ismaillbazri/Yolov5-banana-ripness-detection-Streamlit-application/blob/main/image.png?raw=true" width="600" >
 
 <h2>Conclusion</h2>
+
 Cette application Streamlit pour la détection de maturité des bananes à l'aide de YOLOv5 est un outil utile pour détecter le degré de maturité des bananes. En ré-entraînant le modèle YOLOv5 avec un ensemble de données personnalisé, vous pouvez mettre à jour les poids du réseau de neurones pour améliorer la précision de la détection. L'application Streamlit fournit une interface conviviale pour effectuer une détection en temps réel, ce qui en fait un excellent outil pour détecter la maturité des bananes en temps réel.
